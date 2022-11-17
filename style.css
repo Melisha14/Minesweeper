@@ -1,0 +1,52 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-body{
+    padding: 30px;
+    margin: 40px;
+    display: flex;
+    display: grid;
+    grid-row: 9;
+    grid-column: 9;
+    grid-template-columns: repeat(9, 20px [col-start]);
+    grid-template-rows: repeat(9, 20px [col-start]);
+    row-gap: 20px;
+    column-gap: 20px;
+    /* flex-direction: row; */
+}
+
+.box{
+    height: 30px;
+    width: 30px;
+    margin: 2px;
+    padding: 0;
+    justify-self: center;
+    text-align: center;
+    border-radius: 5px;
+    /* background-color: brown; */
+}
+
+.game-title{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+.niveau-section{
+    margin-right: 50px;
+}
+
+.score-section{
+    margin-left: 50px;
+}
+
+.app-head{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}

@@ -1,20 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Le Demineur</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Demineur</title>
 </head>
 <body>
+    <div class="app">
+        <div class="game-title">Jeu Du Démineur</div>
+        <div class="app-head">
+            <div class="niveau-section">
+                <label for="niveau">Selectionner votre Niveau</label>
+                <select name="niveau" id="niveau">
+                    <option value="0">Facile</option>
+                    <option value="1">Moyen</option>
+                    <option value="2">Difficile</option>
+                    <option value="3">Maître</option>
+                </select>
+            </div>
+            <div class="btn-section">
+                <button type="submit" class="choice-btn">Lancer le Jeu</button>
+            </div>
+            <div class="score-section">Score: <span class="score">0</span></div>
+        </div>
+        <div class="app-body">
+            <!--<button class="box">1</button>
+            <button class="box">2</button>
+            <button class="box">3</button>
+            <button class="box">4</button>
+            <button class="box" style="background-color: green;">5</button> -->
+        </div>
+        <div class="app-footer">
 
-    <h1>Le Démineur</h1>
-
-    <script src='main.js'></script>
-    
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
-
- 
-
