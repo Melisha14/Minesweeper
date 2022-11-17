@@ -1,11 +1,13 @@
-.app{
+.app
+{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.app-body{
+.app-body
+{
     padding: 30px;
     margin: 40px;
     display: flex;
@@ -19,7 +21,8 @@
     /* flex-direction: row; */
 }
 
-.box{
+.box
+{
     height: 30px;
     width: 30px;
     margin: 2px;
@@ -30,20 +33,33 @@
     /* background-color: brown; */
 }
 
-.game-title{
+.game-title
+{
     text-align: center;
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: bold;
-}
-.niveau-section{
-    margin-right: 50px;
-}
-
-.score-section{
-    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
-.app-head{
+.niveau-section
+{
+    margin-right: 20px;
+}
+
+.score-section
+{
+    margin-left: 20px;
+}
+
+.chrono-section
+
+{
+    margin-left: 20px;
+}
+
+.app-head
+{
     padding: 15px;
     display: flex;
     flex-direction: row;

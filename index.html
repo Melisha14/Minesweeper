@@ -9,21 +9,22 @@
 </head>
 <body>
     <div class="app">
-        <div class="game-title">Jeu Du Démineur</div>
+        <div class="game-title">Démineur</div>
         <div class="app-head">
             <div class="niveau-section">
                 <label for="niveau">Selectionner votre Niveau</label>
                 <select name="niveau" id="niveau">
-                    <option value="0">Facile</option>
-                    <option value="1">Moyen</option>
-                    <option value="2">Difficile</option>
-                    <option value="3">Maître</option>
+                    <option value="0">Débutant (9x9, 10 bombes)</option>
+                    <option value="1">Intermédiaire (16x16, 40 bombes)</option>
+                    <option value="2">Expert (22x22, 100 bombes)</option>
+                    <option value="3">Maître (30x30, 250 bombes)</option>
                 </select>
             </div>
             <div class="btn-section">
-                <button type="submit" class="choice-btn">Lancer le Jeu</button>
+                <button type="submit" class="choice-btn">Nouvelle partie</button>
             </div>
             <div class="score-section">Score: <span class="score">0</span></div>
+            <div class="chrono-section">Temps: <span class="score">00:00:00</span></div> 
         </div>
         <div class="app-body">
             <!--<button class="box">1</button>
@@ -37,5 +38,6 @@
         </div>
     </div>
     <script src="main.js"></script>
+
 </body>
 </html>
