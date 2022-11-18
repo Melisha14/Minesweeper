@@ -4,7 +4,7 @@ let niveau = document.querySelector('#niveau');
 let choiceBtn = document.querySelector('.choice-btn');
 let boxes = document.querySelectorAll('.box');
 let scorePrinter = document.querySelector('.score');
-let temps= document.querySelector('.chrono');
+let temps= document.querySelector('.chrono')
 let score = 0;
 let randomValues;
 
